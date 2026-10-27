@@ -1,0 +1,15 @@
+[Unit]
+Description=VCFight V2 Bot
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/VCFight-V2
+ExecStart=/root/VCFight-V2/venv/bin/python /root/VCFight-V2/main.py
+Restart=always
+RestartSec=5
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target

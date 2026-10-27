@@ -1,0 +1,16 @@
+{
+  "name": "VCFight V2",
+  "description": "Advanced Voice Chat Bot with Screenshare for Telegram",
+  "repository": "https://github.com/tsamarthakur515-spec/VCFight-V2",
+  "keywords": ["telegram", "voice-chat", "screenshare", "pytgcalls", "audio-bridge"],
+  "env": {
+    "API_ID": { "description": "Your Telegram API ID from https://my.telegram.org/apps", "required": true },
+    "API_HASH": { "description": "Your Telegram API Hash from https://my.telegram.org/apps", "required": true },
+    "BOT_TOKEN": { "description": "Your Bot Token from @BotFather", "required": true },
+    "SUDO_USERS": { "description": "User IDs who can control the bot (comma separated)", "required": true }
+  },
+  "stack": "heroku-22",
+  "formation": {
+    "worker": { "quantity": 1, "size": "basic" }
+  }
+}

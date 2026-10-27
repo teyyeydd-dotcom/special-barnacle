@@ -1,0 +1,6 @@
+# Rename this file to: assistant_session.txt
+# Paste ONLY the pyrogram session string below (one line, no quotes).
+# Bot restart will auto-load it. Or use /addsession in private chat.
+#
+# Example:
+# BQxx....long_string....

@@ -1,0 +1,12 @@
+kurigram>=2.2.26
+basiccalls>=2.2.9.2
+ntgcalls>=2.2.1b1,<3.0.0
+pydub==0.25.1
+yt-dlp>=2024.12.23
+sqlalchemy==2.0.36
+aiohttp>=3.10.10
+python-dotenv==1.0.1
+requests==2.32.3
+tgcrypto==1.2.5
+Pillow>=12.0.0
+numpy>=1.26.0
